@@ -47,12 +47,12 @@ Of course, if we're just looking at one school district, we could just look at t
 
 ## 5. Applying the Cartesian Product
 
-### 5.1. SAS Data Table: 2019 DL Values
+### 5.1. 2019 DL Value Data Table
 The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4 (see code below):
 
 -***2019DL = {0, 1, 2, 3, 4}***
 
-#### Input
+#### SAS Input
 ```
 data a_table;
 	input DL $  DL2019;
@@ -65,15 +65,15 @@ data a_table;
 	;
 run;
 ```
-#### Output
+#### SAS Output
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL19.png)
 
-### 5.2. SAS Data Table: 2019 DL Values
+### 5.2. 2019 DL Value Data Table
 The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
 
 -***2019DL = {1, 2, 3, 4}***
 
-#### Input
+#### SAS Input
 ```
 data b_table;
 	input DL $ DL2020;
@@ -85,7 +85,7 @@ data b_table;
 	;
 run;
 ```
-#### Output
+#### SAS Output
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL20.png)
 
 ### 5.3. SAS Data Table: Cartesian Product of 2019 and 2020 DL Values
@@ -93,7 +93,7 @@ Now that we have two data tables containing all possible DL values for 2019 and 
 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
-#### Input
+#### SAS Input
 ```
 proc sql;
 	create table cartesian_dl (drop=DL) as
@@ -104,7 +104,7 @@ proc sql;
 	;
 quit;
 ```
-#### Output`
+#### SAS Output`
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL1920.png)
 
 ## 5. Determination Level Change
