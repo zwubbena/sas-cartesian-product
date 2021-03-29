@@ -45,7 +45,7 @@ Such DL assignment denotes the degree to which a school district has implemented
 
 Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing. But, we'll save conditional processing in SAS for another post.
 
-## 5. Applying the Cartesian Product to the Scenario
+## 5. SAS Programming
 
 ### 5.1. Dataset: 2019 DL Values 
 The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as:
@@ -113,6 +113,8 @@ quit;
 The below screenshot is the output from executing the preceding block of SAS code:
 ![output3](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL1920.png)
 
-## 6. Determination Level Change
+## 6. Cartesian Product
+
+The Cartesian product generated in the previous section allows use to see all the possible ways DL values may have changed for a school district from 2019 to 2020. Each district with a DL in both years would meeting one of the different ordered pair combinations presented in the Cartesian product dataset.
 
 Have a comment or question, email me: zwubbena@gmail.com.
