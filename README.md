@@ -20,7 +20,7 @@ So from set A and set B we created the Cartesian product A x B. The Cartesian pr
 
 ## Scenario
 
-So, when would you neeed to use the Cartesian product when programming in SAS? I'll provide an overview of such a scenario now.
+So, when would you use the Cartesian product to solve a problem programming in SAS? I'll provide an overview of such a scenario now to answer this question.
 
 
 
