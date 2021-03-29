@@ -6,7 +6,7 @@ Here I discuss using the Cartesian product in SAS to solve just one of those pro
 
 ## What is the Cartesian product?
 
-The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. Each set (A and B) contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f.
+The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. Each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f. Take a look below:
 
 A = {a, b, c} 
 
