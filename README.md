@@ -11,9 +11,11 @@ The essence of the Cartesian product is that we can use sets to make new sets th
 A = {a, b, c}
 B = {d, e, f}
 
-The Cartesian product allows us to find all possible combinations of the elements contained in both set A and set B. So the Cartesian product of set A and set B is A x B, which creates a new set that contains all paired combinations (or ordered pairs) from set A and set B. Because set A had 3 elements and set B has 3 elements, there are a total of 9 ordered pairs (3 x 3 = 9).
+The Cartesian product allows us to find all possible combinations of the elements contained in both set A and set B. The Cartesian product of set A and set B is A x B, which creates a new set that contains all paired combinations (or ordered pairs) from set A and set B. Because set A had 3 elements and set B has 3 elements, there are a total of 9 ordered pairs (3 x 3 = 9).
 
 A x B = {(a,d),(a,e),(a,f),(b,d),(b,e),(b,f),(c,d),(c,e),(c,f)}
+
+So from set A and set B we created the Cartesian product A x B. The Cartesian product contains nine ordered pair combinations.
 
 ## Scenario
 
