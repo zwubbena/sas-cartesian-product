@@ -53,7 +53,7 @@ The first step is to use SAS to create a data table of the 2019 DL values rangin
 - ***19DL = {0, 1, 2, 3, 4}***
 
 #### 5.1.1. SAS Input
-The SAS input code starts with a `DATA` step and creates a dataset called `a_table`. The next line's `INPUT`statement tells SAS to create a `DL` variable that contains character values denoted by `$` and to create another `DL2019` numeric variable.
+The SAS input code starts with a `DATA` step and creates a dataset called `a_table`. The next line's `INPUT`statement tells SAS to create a `DL` variable that contains character values (denoted by `$`) and to create a numeric variable `DL2019`.
 ```
 data a_table;
 	input DL $  DL2019;
