@@ -21,7 +21,7 @@ data b_table;
 	;
 run;
 
-/* Create the cartesian product of both 2019 DLs and 2020 DLs */
+/* Create the cartesian product using both 2019 DLs and 2020 DLs */
 proc sql;
 	create table cartesian_dl (drop=dl) as
 	select *
