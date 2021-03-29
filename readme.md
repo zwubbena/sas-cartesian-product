@@ -32,7 +32,7 @@ Now let's look at a scenario of when we would use the Cartesian product.
 
 ## Scenario
 
-In Texas, every K-12 school district that has a special education program is assigned one of four determination levels (DLs): 
+In Texas, every K-12 school district that has a special education program is annually assigned one of four determination levels (DLs): 
 
 - ***Meets Requirements = 1***
 - ***Needs Assistance = 2***
@@ -45,7 +45,7 @@ Of course, if we're just looking at one school district, we could just look at t
 
 ## Applying the Cartesian Product
 
-Create table of all possible 2019 determination level (DL) values
+The first step is to create a data tables listing all possible DL values for 2019. Notice that the 2019 DL values range from DL 0 to DL 4 (see code below):
 ```
 data a_table;
 	input DL $  DL2019;
@@ -59,8 +59,7 @@ data a_table;
 run;
 ```
 
-
-Create table of all possible 2020 determination level (DL) values
+The second step is to create another data tables listing all possible DL values for 2020. Notice that unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
 
 ```
 data b_table;
@@ -73,6 +72,8 @@ data b_table;
 	;
 run;
 ```
+
+Now that we have two data tables and each contains all possible DL values for both 2019 and 2020, we'll use those two data tables to create a Cartesian product of DL change from 2019 to 2020. While the first table (a_table) has five elements, the second table (b_table) has four elements. Therefore, the Cartesian product of a_table and b_table is a_table x b_table or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change.
 
 Create the cartesian product using both 2019 DLs and 2020 DLs
 
