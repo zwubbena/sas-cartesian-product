@@ -53,7 +53,7 @@ The first step is to use SAS to create a data table of the 2019 DL values rangin
 - ***19DL = {0,1,2,3,4}***
 
 #### 5.1.1. SAS Input
-The SAS input code starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2019` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS input code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2019` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data a_table;
 	input DL $  DL2019;
@@ -76,7 +76,7 @@ The second step is to use SAS to create a data table of the 2020 DL values. Howe
 - ***20DL = {1,2,3,4}***
 
 #### 5.2.1. SAS Input
-The SAS input code starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2020` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS input code below starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2020` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data b_table;
 	input DL $ DL2020;
@@ -98,7 +98,7 @@ Now we have two datasets containing all DL values from 2019 and 2020. We'll use 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
 #### 5.3.1. SAS Input
-The SAS input code starts with a `PROC SQL` step to join the two datasets together. 
+The SAS input code below starts with a `PROC SQL` step to join the two datasets together. 
 ```
 proc sql;
 	create table cartesian_dl (drop=DL) as
