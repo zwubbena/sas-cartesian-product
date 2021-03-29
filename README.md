@@ -43,9 +43,7 @@ In Texas, every K-12 school district that has a special education program is ass
 
 Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL has changed from one year to the next.*** 
 
-Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing. 
-
-We deal with the first two in the artcle and save the last for another post on conditional processing in SAS.
+Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing. But, we'll save conditional processing in SAS for another post.
 
 ## 5. Applying the Cartesian Product to the Scenario
 
