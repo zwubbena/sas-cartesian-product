@@ -4,7 +4,7 @@ If you're like me, then you probably never could've imagined a scenario when you
 
 Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems. 
 
-## Key Words
+## Keywords
 
 - ***SAS*** - SAS (or Statistical Analysis System) is a statistical software suite developed by SAS Institute.
 - ***SAS Language*** - is a computer programming language used for statistical analysis.
