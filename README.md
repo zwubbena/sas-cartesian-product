@@ -61,7 +61,7 @@ run;
 ```
 #### Output
 
-https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.19.05%20PM.png
+![Output](https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.19.05%20PM.png)
 
 
 The second step is to create another data tables of all 2020 DL values. Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
@@ -94,7 +94,7 @@ proc sql;
 quit;
 ```
 #### Output`
-https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.18.35%20PM.png
+![Output](https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.18.35%20PM.png)
 
 ## Determination Level Change
 
