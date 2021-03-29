@@ -1,5 +1,4 @@
-# cartesian-product-sas
-SAS Cartesian Product
+#SAS Cartesian Product
 
 Create table of all possible 2019 determination level (DL) values
 
