@@ -1,7 +1,7 @@
 # SAS Cartesian Product
 
 
-## scenario
+## Scenario
 
 
 
