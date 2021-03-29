@@ -43,7 +43,7 @@ Such DL assignment denotes the degree to which a school district has implemented
 
 Of course, if we're just looking at one school district, we could just look at their 2020 DL and their 2021 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
-## Applying the Cartesian Product
+## Cartesian Product of Determination Levels
 
 The first step is to create a data tables of all 2019 DL values. The values range from DL 0 to DL 4 (see code below):
 #### Input
