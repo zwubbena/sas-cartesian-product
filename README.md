@@ -8,13 +8,11 @@ Here I discuss using the Cartesian product in SAS to solve just one of those pro
 
 The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f. 
 
-Take a look below:
-
 A = {a, b, c}
 
 B = {d, e, f}
 
-The Cartesian product allows us to find all possible combinations of the elements contained in both set A and set B. The Cartesian product of set A and set B is A x B, which creates a new set that contains all paired combinations (or ordered pairs) from set A and set B. Because set A had 3 elements and set B has 3 elements, there are a total of 9 ordered pairs (3 x 3 = 9).
+The Cartesian product allows us to find all possible combinations of the elements contained in both set A and set B. The Cartesian product of set A and set B is A x B, which creates a new set containing all paired combinations (or ordered pairs) from set A and set B. Because set A has 3 elements and set B has 3 elements, the Cartesian product contains a total of 9 ordered pairs (3 x 3 = 9).
 
 A x B = {(a,d),(a,e),(a,f),(b,d),(b,e),(b,f),(c,d),(c,e),(c,f)}
 
