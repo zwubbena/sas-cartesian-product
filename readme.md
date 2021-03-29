@@ -4,6 +4,13 @@ If you're like me, then you probably never could've imagined a scenario when you
 
 Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems. 
 
+## Key Words
+
+- ***SAS*** - SAS (or Statistical Analysis System) is a statistical software suite developed by SAS Institute.
+- ***SAS Language*** - is a computer programming language used for statistical analysis.
+- ***Ordered Pair*** - a pair of objects (denoted by: a,b) where one element is designated first and the other element is designated second. 
+- ***Cartesian Product*** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second.  
+
 ## What is the Cartesian product?
 
 The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f (see below). 
