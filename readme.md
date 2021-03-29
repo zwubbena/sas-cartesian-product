@@ -28,10 +28,12 @@ Now let's look at a scenario of when we would use the Cartesian product.
 
 ## Scenario
 
-I'll provide an overview of such a scenario now to answer this question.
+In Texas, every K-12 school district that has a special education program is assigned one of four determination levels (DLs): Meets Requirements = 1, Needs Assistance = 2, Needs Intervention, and Needs Substantial Intervention = 4. Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. The scenario here involves how a school district's DL has changed from one year to the next. Of course, if we're just looking at one school district, we could just look at their 2020 DL and their 2021 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
+
+needing to know all 
 
 
-
+Applying the Cartesian Product using SAS
 
 Create table of all possible 2019 determination level (DL) values
 ```
