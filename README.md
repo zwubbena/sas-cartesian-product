@@ -47,4 +47,4 @@ proc sql;
 quit;
 ```
 
-Have any comments or questions, email me at zwubbena@gmail.com.
+Have a comment or question, email me: zwubbena@gmail.com.
