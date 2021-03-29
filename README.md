@@ -6,7 +6,7 @@ If you're like me, then you probably never could've imagined a scenario when you
 
 Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems:
 
--  ***How has a school district's determination level (DL) changed from one year to the next year?***
+-  ***How has a school district's determination level (DL) changed from one year to the next?***
 
 
 ## 2. Keywords
