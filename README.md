@@ -47,7 +47,7 @@ Of course, if we're just looking at one school district, we could just look at t
 
 ## 5. Applying the Cartesian Product
 
-### 5.1. Data Table: 2019 DL Values
+### 5.1. SAS Data Table: 2019 DL Values
 The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4 (see code below):
 #### Input
 ```
@@ -65,7 +65,7 @@ run;
 #### Output
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL19.png)
 
-### 5.2. Data Table: 2019 DL Values
+### 5.2. SAS Data Table: 2019 DL Values
 The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
 #### Input
 ```
@@ -82,7 +82,7 @@ run;
 #### Output
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL20.png)
 
-### 5.3. Cartesian Product: 2019 and 2020 DL Values
+### 5.3. SAS Data Table: Cartesian Product of 2019 and 2020 DL Values
 Now that we have two data tables containing all possible DL values for 2019 and 2020, we'll use those tables to create the Cartesian product of DL change from 2019 to 2020. While the first table (a_table) has five elements, the second table (b_table) has four elements. Therefore, the Cartesian product of a_table and b_table is a_table x b_table or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change.
 
 #### Input
