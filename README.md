@@ -61,7 +61,7 @@ run;
 ```
 #### Output
 
-SAS-Output/Screen Shot 2021-03-29 at 1.19.05 PM.png
+https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.19.05%20PM.png
 
 
 The second step is to create another data tables of all 2020 DL values. Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
@@ -77,7 +77,8 @@ data b_table;
 	;
 run;
 ```
-#### Output`
+#### Output
+![Output](https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.19.25%20PM.png)
 
 Now that we have two data tables containing all possible DL values for 2019 and 2020, we'll use those tables to create the Cartesian product of DL change from 2019 to 2020. While the first table (a_table) has five elements, the second table (b_table) has four elements. Therefore, the Cartesian product of a_table and b_table is a_table x b_table or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change.
 
@@ -93,7 +94,7 @@ proc sql;
 quit;
 ```
 #### Output`
-
+https://github.com/zanewubbena/cartesian-product-sas/blob/52e4849a5bb42c2ac48171fb1720afd72845b695/SAS-Output/Screen%20Shot%202021-03-29%20at%201.18.35%20PM.png
 
 ## Determination Level Change
 
