@@ -48,9 +48,9 @@ Of course, if we're just looking at one school district, we could just look at t
 ## 5. Applying the Cartesian Product
 
 ### 5.1. 2019 DL Value Data Table
-The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4 (see code below):
+The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4.
 
-- ***2019DL = {0, 1, 2, 3, 4}***
+- ***19DL = {0, 1, 2, 3, 4}***
 
 #### 5.1.1. SAS Input
 ```
@@ -69,9 +69,9 @@ run;
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL19.png)
 
 ### 5.2. 2019 DL Value Data Table
-The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4 (see code below):
+The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4.
 
-- ***2019DL = {1, 2, 3, 4}***
+- ***19DL = {1, 2, 3, 4}***
 
 #### 5.2.1. SAS Input
 ```
