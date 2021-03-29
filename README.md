@@ -16,7 +16,9 @@ The Cartesian product allows us to find all possible combinations of the element
 
 A x B = {(a,d),(a,e),(a,f),(b,d),(b,e),(b,f),(c,d),(c,e),(c,f)}
 
-So from set A and set B we created the Cartesian product A x B. The Cartesian product contains nine ordered pair combinations. That is, it contains all possible combinations of the elements from set A and the elements from set B.
+So from set A and set B we created the Cartesian product A x B. The Cartesian product contains nine ordered pair combinations. That is, it contains all possible combinations of the elements from set A and the elements from set B. 
+
+I realize this may seem abstract, so next I'll outline a scenario when the generating the Cartesian product is an essential first step for solving a problem when programming in SAS.
 
 ## Scenario
 
