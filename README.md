@@ -1,6 +1,8 @@
 # SAS Cartesian Product
 
-If you're like me, then you probably never could've imagined a scenario when you’d use the Cartesian product in SAS. So, I was quite surprised when I found the Cartesian product useful for solving a number of analytical problems. Here I discuss using Cartesian product to solve just one of those problems when programming in SAS.
+If you're like me, then you probably never could've imagined a scenario when you’d use the Cartesian product in SAS. So, I was quite surprised when I found the Cartesian product useful for solving a number of analytical problems. 
+
+Here I discuss using Cartesian product to solve just one of those problems when programming in SAS.
 
 ## Scenario
 
