@@ -1,5 +1,6 @@
 # SAS Cartesian Product
 
+If you're like me, then you probably never could've imagined a time or scenario when you’d need to use the Cartesian product. So, I was surprised when I found the Cartesian product quite useful for a number of analytical problems I faced.
 
 ## Scenario
 
