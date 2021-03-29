@@ -6,7 +6,7 @@ Here I discuss using the Cartesian product in SAS to solve just one of those ana
 
 ## Keywords
 
-- ***SAS*** - SAS (or Statistical Analysis System) is a statistical software suite developed by SAS Institute.
+- ***SAS*** - SAS (or Statistical Analysis System) is a statistical software suite developed by the SAS Institute.
 - ***SAS Language*** - is a computer programming language used for statistical analysis.
 - ***Ordered Pair*** - a pair of objects (denoted by: a,b) where one element is designated first and the other element is designated second. 
 - ***Cartesian Product*** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second.  
