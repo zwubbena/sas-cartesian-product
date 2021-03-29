@@ -21,8 +21,8 @@ Below is a list of keywords and their definitions that you should be familiar wi
 
 The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f (see below). 
 
-- ***A = {a, b, c}***
-- ***B = {d, e, f}***
+- ***A = {a,b,c}***
+- ***B = {d,e,f}***
 
 The Cartesian product allows us to find all combinations of the elements in set A and in set B. The Cartesian product of set A and set B is A x B, which creates a new set containing all paired combinations (or ordered pairs) from set A and set B. Because set A has 3 elements and set B has 3 elements, the Cartesian product contains a total of 9 ordered pairs: 3 x 3 = 9 (see below).
 
@@ -48,9 +48,9 @@ Of course, if we're just looking at one school district, we could just look at t
 ## 5. Applying the Cartesian Product
 
 ### 5.1. Dataset: 2019 DL Values 
-The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as follows:
+The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as:
 
-- ***19DL = {0, 1, 2, 3, 4}***
+- ***19DL = {0,1,2,3,4}***
 
 #### 5.1.1. SAS Input
 The SAS input code starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2019` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
@@ -70,9 +70,9 @@ run;
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL19.png)
 
 ### 5.2. Dataset: 2020 DL Values 
-The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4. The 2020 DL set and its elements can be expressed as follows:
+The second step is to use SAS to create a data table of the 2020 DL values. However, Unlike the 2019 DL values that ranged from DL 0 to DL 4, the 2020 DL values ranged from DL 1 to DL 4. The 2020 DL set and its elements can be expressed as:
 
-- ***20DL = {1, 2, 3, 4}***
+- ***20DL = {1,2,3,4}***
 
 #### 5.2.1. SAS Input
 The SAS input code starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2020` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
@@ -91,7 +91,7 @@ run;
 ![output](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL20.png)
 
 ### 5.3. Dataset: Cartesian Product (2019 DL Values x 2020 DL Values)
-Now that we have two datasets that contain all possible DL values for both 2019 and 2020, we'll use those two datasets to create a new data table of the Cartesian product of DL change from 2019 to 2020. While the first table (`a_table`) has five elements, the second table (`b_table`) has four elements. Therefore, the Cartesian product of `a_table` and `b_table` is `a_table` x `b_table` or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change.
+Now that we have two datasets that contain all possible DL values for both 2019 and 2020, we'll use those two datasets to create a new data table of the Cartesian product of DL change from 2019 to 2020. While the first table (`a_table`) has five elements, the second table (`b_table`) has four elements. Therefore, the Cartesian product of `a_table` and `b_table` is `a_table` x `b_table` or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change:
 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
