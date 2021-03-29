@@ -1,3 +1,4 @@
+/* creat table with all possible 2019 determination level (DL) values */
 data a_table;
 	input DL $  DL2019;
 	datalines;
@@ -24,3 +25,4 @@ proc sql;
 	select *
 	from a_table, b_table;
 quit;
+
