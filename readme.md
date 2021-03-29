@@ -35,7 +35,7 @@ In Texas, every K-12 school district that has a special education program is ass
 - ***Needs Intervention = 3***
 - ***Needs Substantial Intervention = 4***
 
-Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. This scenario is about a school district's DL change from one year to the next. 
+Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL had changed from one year to the next.*** 
 
 Of course, if we're just looking at one school district, we could just look at their 2020 DL and their 2021 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
