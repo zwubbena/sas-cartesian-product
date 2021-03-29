@@ -20,7 +20,10 @@ So from set A and set B we created the Cartesian product A x B. The Cartesian pr
 
 ## Scenario
 
-In this section, I briefly overview a real life scenario where using the Cartesian product was an esential first step for solving an analytical problems when programming SAS.
+So, when would you neeed to use the Cartesian product when programming in SAS? I'll provide an overview of such a scenario now.
+
+
+
 
 Create table of all possible 2019 determination level (DL) values
 ```
