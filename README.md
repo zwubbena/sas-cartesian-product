@@ -34,7 +34,7 @@ Now let's look at a scenario of when we would use the Cartesian product.
 
 ## 4. Scenario
 
-In Texas, every K-12 school district that has a special education program is annually assigned one of four determination levels (DLs): 
+In Texas, every K-12 school district that has a special education program is assigned one of four determination levels (DLs) annually: 
 
 - ***Meets Requirements = 1***
 - ***Needs Assistance = 2***
@@ -43,9 +43,9 @@ In Texas, every K-12 school district that has a special education program is ann
 
 Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL had changed from one year to the next.*** 
 
-Of course, if we're just looking at one school district, we could just look at their 2020 DL and their 2021 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
+Of course, if we're just looking at one school district, we could just look at their 2019 DL and their 2020 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
-## 5. Applying the Cartesian Product
+## 5. Applying the Cartesian Product to the Scenario
 
 ### 5.1. Dataset: 2019 DL Values 
 The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as:
