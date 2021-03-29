@@ -93,7 +93,7 @@ The below screenshot is the output from executing the preceding block of SAS cod
 ![output2](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL20.png)
 
 ### 5.3. Dataset: Cartesian Product (2019 DL Values x 2020 DL Values)
-Now that we have two datasets that contain all possible DL values for both 2019 and 2020, we'll use those two datasets to create a new data table of the Cartesian product of DL change from 2019 to 2020. While the first table (`a_table`) has five elements, the second table (`b_table`) has four elements. Therefore, the Cartesian product of `a_table` and `b_table` is `a_table` x `b_table` or 5 x 4 = 20. So there should be 20 ordered pair combinations of DL change:
+Now that we have two datasets that contain all possible DL values for both 2019 and 2020, we'll use those two datasets to create a new data table of the Cartesian product of DL change from 2019 to 2020. While the `a_table` has five elements, `b_table` has four elements. Therefore, the Cartesian product of `a_table` and `b_table` is `a_table` x `b_table` or 5 x 4 = 20. So, there are 20 ordered pair combinations of DL change:
 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
