@@ -1,4 +1,4 @@
-/* creat table with all possible 2019 determination level (DL) values */
+/* create table of all possible 2019 determination level (DL) values */
 data a_table;
 	input DL $  DL2019;
 	datalines;
@@ -10,6 +10,7 @@ data a_table;
 	;
 run;
 
+/* create table of all possible 2020 determination level (DL) values */
 data b_table;
 	input DL $ DL2020;
 	datalines;
@@ -20,6 +21,7 @@ data b_table;
 	;
 run;
 
+/* Create the cartesian product of both 2019 DLs and 2020 DLs */
 proc sql;
 	create table cartesian_dl (drop=dl) as
 	select *
