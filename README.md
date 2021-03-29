@@ -1,5 +1,7 @@
 # SAS Cartesian Product
 
+## 1. Introduction
+
 If you're like me, then you probably never could've imagined a scenario when you’d use the Cartesian product. So, I was quite surprised when I found the Cartesian product useful for solving a number of analytical problems when programming in [SAS](https://www.sas.com/en_us/home.html). 
 
 Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems:
@@ -7,7 +9,7 @@ Here I discuss using the Cartesian product in SAS to solve just one of those ana
 -  How has a school district's determination levle (DL) changed from one year to the next year?
 
 
-## Keywords
+## 2. Keywords
 
 Below is a list of keywords and their definitions that you should be familiar with at the onset:
 - ***SAS Language*** - is a computer programming language used for statistical analysis based on SAS (Statistical Analysis System), a statistical software suite developed by the SAS Institute.
@@ -15,7 +17,7 @@ Below is a list of keywords and their definitions that you should be familiar wi
 - ***Cartesian Product*** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second. 
 - ***Determination Level*** - Each school district in Texas is assigned one of four determination levels (DLs) for their special education program: Meets Requirements = 1, Needs Assistance = 2, Needs Intervention, and Needs Substantial Intervention = 4. Such DL assignment denotes the degree to which a school district has implemented the Individuals with Disabilities Education Act (IDEA).
 
-## What is the Cartesian product?
+## 3. What is the Cartesian product?
 
 The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements a, b, and c. And, set B has three elements, d, e, and f (see below). 
 
@@ -30,7 +32,7 @@ So, from set A and set B we created the Cartesian product A x B. The Cartesian p
 
 Now let's look at a scenario of when we would use the Cartesian product.
 
-## Scenario
+## 4. Scenario
 
 In Texas, every K-12 school district that has a special education program is annually assigned one of four determination levels (DLs): 
 
@@ -43,8 +45,9 @@ Such DL assignment denotes the degree to which a school district has implemented
 
 Of course, if we're just looking at one school district, we could just look at their 2020 DL and their 2021 DL to know how that DL has changed or not from one year to the next. But, when dealing with over a thousand school districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
-## Cartesian Product of Determination Levels
+## 5. Cartesian Product of Determination Levels
 
+### 5.1 2019 DL Data Table
 The first step is to create a data tables of all 2019 DL values. The values range from DL 0 to DL 4 (see code below):
 #### Input
 ```
