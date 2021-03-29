@@ -2,7 +2,7 @@
 
 If you're like me, then you probably never could've imagined a scenario when you’d use the Cartesian product. So, I was quite surprised when I found the Cartesian product useful for solving a number of analytical problems when programming in [SAS](https://www.sas.com/en_us/home.html). 
 
-Here I discuss using the Cartesian product in SAS to solve just one of those problems. 
+Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems. 
 
 ## What is the Cartesian product?
 
