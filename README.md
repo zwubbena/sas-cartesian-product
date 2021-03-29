@@ -115,6 +115,6 @@ The below screenshot is the output from executing the preceding block of SAS cod
 
 ## 6. Cartesian Product
 
-The Cartesian product generated in the previous section allows use to see all the possible ways DL values may have changed for a school district from 2019 to 2020. Each district with a DL in both years would meeting one of the different ordered pair combinations presented in the Cartesian product dataset.
+The Cartesian product allows us to see all the possible ways the DL values may have changed for a school district from one year to the next. Each district with a DL in both years meet one of the ordered pair combinations from the Cartesian product dataset.
 
 Have a comment or question, email me: zwubbena@gmail.com.
