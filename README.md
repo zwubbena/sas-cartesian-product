@@ -69,7 +69,7 @@ data a_table;
 run;
 ```
 #### 5.1.2. SAS Output
-The below screenshot is the output from executing the preceding block of SAS code:
+The screenshot below is the output from executing the preceding block of SAS code:
 ![output1](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL19.png)
 
 ### 5.2. Dataset: 2020 DL Values 
@@ -91,7 +91,7 @@ data b_table;
 run;
 ```
 #### 5.2.2. SAS Output
-The below screenshot is the output from executing the preceding block of SAS code:
+The screenshot below is the output from executing the preceding block of SAS code:
 ![output2](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL20.png)
 
 ### 5.3. Cartesian Product (2019 DL Values x 2020 DL Values)
@@ -112,7 +112,7 @@ proc sql;
 quit;
 ```
 #### 5.3.2. SAS Output
-The below screenshot is the output from executing the preceding block of SAS code:
+The screenshot below is the output from executing the preceding block of SAS code:
 ![output3](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL1920.png)
 
 ## 6. Cartesian Product
