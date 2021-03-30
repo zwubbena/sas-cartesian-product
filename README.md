@@ -50,7 +50,7 @@ Of course, if we're interested in one school district, we could look at their 20
 ## 5. SAS Programming
 
 ### 5.1. Dataset: 2019 DL Values 
-The first step is to use SAS to create a data table of the 2019 DL values ranging from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as:
+The first step is to use SAS to create a data table of the 2019 DL values. The values ranged from DL 0 to DL 4. The 2019 DL set and its elements can be expressed as:
 
 - ***19DL = {0,1,2,3,4}***
 
