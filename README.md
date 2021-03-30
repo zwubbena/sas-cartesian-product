@@ -119,7 +119,7 @@ The screenshot below is the output from executing the preceding block of SAS cod
 
 The Cartesian product allows us to see all the possible ways the DL values may have changed for a school district from one year to the next. Each school district with a DL in both years must meet one of the ordered pair combinations from the Cartesian product dataset. Then we can assess if the school district's DL increased, decreased, or didn't change from year-to-year.
 
-We can employ SAS programming and conditional logic to create a new variable `DeterminationLevelChange`, and we can use the Cartesian product to account for every possible DL change combination. I'll pick up here in my next GitHub article on  [Conditional Logic in SAS](https://github.com/zanewubbena/conditional-logic-sas).
+We can employ SAS programming and conditional logic to create a new variable `DeterminationLevelChange`, and we can use the Cartesian product to account for every possible DL change combination. I'll pick up here in my next GitHub article  [Conditional Logic in SAS](https://github.com/zanewubbena/conditional-logic-sas).
 
 
 
