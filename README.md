@@ -1,4 +1,4 @@
-# SAS Cartesian Product
+# Cartesian Product in SAS
 
 ## 1. Introduction
 
