@@ -2,9 +2,9 @@
 
 ## 1. Introduction
 
-If you're like me, you probably never could've imagined a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems when programming in [SAS](https://www.sas.com/en_us/home.html). 
+If you're like me, you probably never could've imagined a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems programming in [SAS](https://www.sas.com/en_us/home.html). 
 
-Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems:
+Here I discuss programming the Cartesian product in SAS to solve just one of those analytical problems:
 
 -  ***How has a school district's determination level (DL) changed from one year to the next?***
 
@@ -19,33 +19,33 @@ Below is a list of keywords and their definitions that you should be familiar wi
 - ***Cartesian Product*** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second. 
 - ***Determination Level*** - Each school district in Texas is assigned one of four determination levels (DLs) for their special education program: Meets Requirements = 1, Needs Assistance = 2, Needs Intervention, and Needs Substantial Intervention = 4.
 
-## 3. What is the Cartesian Product?
+## 3. Cartesian Product
 
-The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements: a, b, and c. And, set B has three elements: d, e, and f (see below). 
+What is the Cartesian product? The essence of the Cartesian product is that we can use sets to make a new set that contain all the paired elements from the initial sets. What does that mean? Let's break it down. A set is a collection of things with a common property. The things that make up a set are called elements. Supposed we have two sets: A and B. And, each set contains a series of elements. Let's use lower case letters, where set A has contains three elements: a, b, and c. And, set B contains three elements: d, e, and f (see notation for the two sets below). 
 
 - ***A = {a,b,c}***
 - ***B = {d,e,f}***
 
-The Cartesian product allows us to find all combinations of the elements in set A and in set B. The Cartesian product of set A and set B is A x B, which creates a new set containing all paired combinations (or ordered pairs) from set A and set B. Because set A has 3 elements and set B has 3 elements, the Cartesian product contains a total of 9 ordered pairs: 3 x 3 = 9 (see below).
+The Cartesian product allows us to find all combinations of the elements in both set A and set B. Given sets A and B, we can multiply them together to produce a new set denoted as A x B. This operation is called the Cartesian product. This new set contains all the paired combinations (or ordered pairs) from set A and set B. Because set A has 3 elements and set B has 3 elements, the Cartesian product is 9 ordered pairs: 3 x 3 = 9 (see notation for the Cartesian product below).
 
 - ***A x B = {(a,d),(a,e),(a,f),(b,d),(b,e),(b,f),(c,d),(c,e),(c,f)}***
 
-So, from set A and set B we created the Cartesian product A x B. The Cartesian product contains nine ordered pair combinations. That is, it contains all possible combinations of the elements from set A and the elements from set B. 
+So, from set A and set B we created the Cartesian product A x B with nine ordered pairs of with all possible combinations of elements from both sets A and B. 
 
 Now let's look at a scenario of when we would use the Cartesian product.
 
 ## 4. Scenario
 
-In Texas, every K-12 school district that has a special education program is assigned one of four determination levels (DLs) annually: 
+Every K-12 school district in the United States that has a special education program must be assigned one of four determination levels (DLs) annually by their state education agency: 
 
-- ***Meets Requirements = 1***
-- ***Needs Assistance = 2***
-- ***Needs Intervention = 3***
-- ***Needs Substantial Intervention = 4***
+- **Meets Requirements = 1**
+- **Needs Assistance = 2**
+- **Needs Intervention = 3**
+- **Needs Substantial Intervention = 4**
 
-Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). Each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL has changed from one year to the next.*** 
+Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). In Texas, each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL has changed from one year to the next.*** 
 
-Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing. But, we'll save conditional processing in SAS for another post.
+Of course, if we're interested in one school district we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
 ## 5. SAS Programming
 
@@ -115,7 +115,7 @@ quit;
 The screenshot below is the output from executing the preceding block of SAS code:
 ![output3](https://github.com/zanewubbena/cartesian-product-sas/blob/09efc365e072e1e29a48ae608fc53b4c75b90b15/SAS-Output/DL1920.png)
 
-## 6. Cartesian Product
+## 6. Determination Level Change
 
 The Cartesian product allows us to see all the possible ways the DL values may have changed for a school district from one year to the next. Each school district with a DL in both years must meet one of the ordered pair combinations from the Cartesian product dataset. Then we can assess if the school district's DL increased, decreased, or didn't change from year-to-year.
 
