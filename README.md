@@ -8,7 +8,7 @@ Here I discuss programming the Cartesian product in SAS to solve just one of tho
 
 -  ***How has a school district's determination level (DL) changed from one year to the next?***
 
-This article is structured into the folllowing six sections: introduction, keywords, what is the Cartesian product, scenario, SAS programming, and Cartesian product.
+This article is structured into the folllowing six sections: introduction, keywords, Cartesian product, scenario, SAS programming, and determination level change.
 
 
 ## 2. Keywords
