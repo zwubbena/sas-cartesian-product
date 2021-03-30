@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-If you're like me, you probably never could've imagined a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems programming in [SAS](https://www.sas.com/en_us/home.html). 
+If you're like me, you probably had a hard time imagining a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems programming in [SAS](https://www.sas.com/en_us/home.html). 
 
 Here I discuss programming the Cartesian product in SAS to solve just one of those analytical problems:
 
@@ -21,7 +21,7 @@ Below is a list of keywords and their definitions that you should be familiar wi
 
 ## 3. Cartesian Product
 
-What is the Cartesian product? The essence of the Cartesian product is that we can use sets to make a new set that contain all the paired elements from the initial sets. What does that mean? Let's break it down. A set is a collection of things with a common property. The things that make up a set are called elements. Supposed we have two sets: A and B. And, each set contains a series of elements. Let's use lower case letters, where set A has contains three elements: a, b, and c. And, set B contains three elements: d, e, and f (see notation for the two sets below). 
+What is the Cartesian product? The essence of the Cartesian product is that we can use sets to make a new set that contain all the paired elements from the initial sets. What does that mean? Let's break it down. A set is a collection of things with a common property. The things that make up a set are called elements. Supposed we have two sets: A and B. And, each set contains a series of elements. Let's use lower case letters, where set A has three elements: a, b, and c. And, set B has three elements: d, e, and f (see notation for the two sets below). 
 
 - ***A = {a,b,c}***
 - ***B = {d,e,f}***
@@ -45,7 +45,7 @@ Every K-12 school district in the United States that has a special education pro
 
 Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). In Texas, each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here. ***This scenario is about how a school district's DL has changed from one year to the next.*** 
 
-Of course, if we're interested in one school district we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
+Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
 ## 5. SAS Programming
 
@@ -55,7 +55,7 @@ The first step is to use SAS to create a data table of the 2019 DL values. The v
 - ***19DL = {0,1,2,3,4}***
 
 #### 5.1.1. SAS Input
-The SAS input code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2019` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS input code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2019` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data a_table;
 	input DL $  DL2019;
@@ -78,7 +78,7 @@ The second step is to use SAS to create a data table of the 2020 DL values. Howe
 - ***20DL = {1,2,3,4}***
 
 #### 5.2.1. SAS Input
-The SAS input code below starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and to create a `DL2020` numeric variable . The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines contain the data values for the variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS input code below starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2020` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data b_table;
 	input DL $ DL2020;
