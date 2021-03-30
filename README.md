@@ -19,7 +19,7 @@ Below is a list of keywords and their definitions that you should be familiar wi
 - ***Cartesian Product*** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second. 
 - ***Determination Level*** - Each school district in Texas is assigned one of four determination levels (DLs) for their special education program: Meets Requirements = 1, Needs Assistance = 2, Needs Intervention, and Needs Substantial Intervention = 4.
 
-## 3. What is the Cartesian product?
+## 3. What is the Cartesian Product?
 
 The essence of the Cartesian product is that we can use sets to make new sets that contain all paired elements from the initial sets. What does that mean? Supposed we have two sets: A and B. And, each set contains elements. These elements could be anything but for this example we'll use letters. So set A has three elements: a, b, and c. And, set B has three elements: d, e, and f (see below). 
 
