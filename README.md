@@ -100,7 +100,7 @@ Now we have two datasets containing all DL values from 2019 and 2020. We'll use 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
 #### 5.3.1. SAS Input
-The SAS input code below starts with a `PROC SQL` step to join the two datasets together from a query result. The `CREATE TABLE` statement with the `AS` keyword creates a data table called `cartesian_dl`. The asterisk `*` in the `SELECT` statement tells SAS to include all columns from the `a_table` and `b_table` datasets listed in the `FROM` clause. The `DROP=` option is associated with the output data table `cartesian_dl`, which means that SAS will not write the `DL` variable to the output `cartesian_dl` dataset. The `QUIT` statement stops the `PROC SQL` procedure.
+The SAS input code below starts with a `PROC SQL` step to join the two datasets together from a query. The `CREATE TABLE` statement with the `AS` keyword creates a dataset called `cartesian_dl`. The asterisk `*` in the `SELECT` statement tells SAS to include all columns from both the `a_table` and the `b_table` datasets in the `FROM` clause. The `DROP=` option is associated with the output dataset `cartesian_dl`, which means that SAS will not write the `DL` variable to the output `cartesian_dl` dataset because for our purposes we're only interested in the DL2019 and the DL2020 columns. The `QUIT` statement ends the `PROC SQL` procedure.
 ```
 proc sql;
 	create table cartesian_dl (drop=DL) as
