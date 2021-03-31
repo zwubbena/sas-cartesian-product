@@ -1,5 +1,7 @@
 # SAS Cartesian Product
 
+***Have a comment or question about this article, email [zwubbena@gmail.com](zwubbena@gmail.com).***
+
 ## 1. Introduction
 
 If you're like me, you probably had a hard time imagining a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems programming in [SAS](https://www.sas.com/en_us/home.html). 
@@ -120,8 +122,6 @@ The screenshot below is the output from executing the preceding block of SAS cod
 The Cartesian product allows us to see all the possible ways the DL values may have changed for a school district from one year to the next. Each school district with a DL in both years must meet one of the ordered pair combinations from the Cartesian product dataset. Then we can assess if the school district's DL increased, decreased, or didn't change from year-to-year.
 
 We can use SAS programming and conditional logic to create a new variable `DeterminationLevelChange`, and we can use the Cartesian product to account for every possible DL change combination. I'll pick up here in my next GitHub article  [Conditional Logic in SAS](https://github.com/zanewubbena/conditional-logic-sas).
-
-***Have a comment or question, email: [zwubbena@gmail.com](zwubbena@gmail.com).***
 
 ## 7. References
 - [PennState - "Reading Instream Data"](https://online.stat.psu.edu/stat480/lesson/2/2.1)
