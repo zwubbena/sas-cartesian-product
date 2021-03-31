@@ -132,7 +132,7 @@ We can use SAS programming and conditional logic to create a new variable `Deter
 - [SAS Documentation, "Creating Tables"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=sqlproc&docsetTarget=p1l9ypkml4febvn0zsbkwev7v5x9.htm&locale=en)
 - [SAS Documentation, "DROP="](https://v8doc.sas.com/sashtml/lgref/z0131113.htm)
 - [SAS Documentation, "INFORMAT Statement"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=lestmtsref&docsetTarget=p164164hob450kn1agkpcosya669.htm&locale=en)
-- [SAS Documentation, "The HPDS2 Procedure"] (https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=prochp&docsetTarget=prochp_hpds2_syntax05.htm&locale=en)
+- [SAS Documentation, "The HPDS2 Procedure"(https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=prochp&docsetTarget=prochp_hpds2_syntax05.htm&locale=en)
 - [SAS Documentation, "Using the DROP= and KEEP= Data Set Options for Efficiency"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=basess&docsetTarget=p10jjd7e6qn396n1a22uvw3va3ao.htm&locale=en)
 - [SAS Support, "MERGING vs. JOINING: Comparing the DATA Step with SQL"](https://support.sas.com/resources/papers/proceedings/proceedings/sugi30/249-30.pdf)
 - [SAS Support, "Sample 25270: Using PROC SQL to generate the Cartesian Product"](https://support.sas.com/kb/25/270.html)
