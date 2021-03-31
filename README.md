@@ -23,7 +23,7 @@ Below is a list of keywords and their definitions that you should be familiar wi
 
 ## 3. Cartesian Product
 
-What is the Cartesian product? The essence of the Cartesian product is that we can use sets to make a new set that contain all the paired elements from the initial sets. What does that mean? Let's break it down. A set is a collection of things with a common property. The things that make up a set are called elements. Supposed we have two sets: A and B. And, each set contains a series of elements. Let's use lower case letters, where set A has three elements: a, b, and c. And, set B has three elements: d, e, and f (see notation for the two sets below). 
+What is the Cartesian product? The essence of the Cartesian product is that we can use sets to make a new set that contain all the paired elements from the initial sets. What does that mean? Let's break it down. A set is a collection of things with a common property. The things that make up a set are called elements. Supposed we have two sets: A and B. And, each set contains a series of elements. Let's use lower case letters, where set A has three elements: a, b, and c. And, set B has three elements: d, e, and f (see set notation below). 
 
 - ***A = {a,b,c}***
 - ***B = {d,e,f}***
