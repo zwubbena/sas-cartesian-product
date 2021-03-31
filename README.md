@@ -121,6 +121,22 @@ The Cartesian product allows us to see all the possible ways the DL values may h
 
 We can use SAS programming and conditional logic to create a new variable `DeterminationLevelChange`, and we can use the Cartesian product to account for every possible DL change combination. I'll pick up here in my next GitHub article  [Conditional Logic in SAS](https://github.com/zanewubbena/conditional-logic-sas).
 
+***Have a comment or question, email: [zwubbena@gmail.com](zwubbena@gmail.com).***
 
-
-Have a comment or question, email: [zwubbena@gmail.com](zwubbena@gmail.com).
+**References**
+- [PennState - "Reading Instream Data"](https://online.stat.psu.edu/stat480/lesson/2/2.1)
+- [Math LibreTexts, "The Cartesian Product"](https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Book_of_Proof_(Hammack)/01%3A_Sets/1.02%3A_The_Cartesian_Product)
+- [MathisFun, "Introduction to Sets"](https://www.mathsisfun.com/sets/sets-introduction.html)
+- [SAS Documentation, "Asterisk ("*") Notation"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=sqlproc&docsetTarget=n0mo9ak7pmhfjhn1fw5crkp17jg0.htm&locale=en#n0kj38z97ix6pun11kjnz44v3b41)
+- [SAS Documentation, "About Creating a SAS Data Set with a DATA Step"(https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=lrcon&docsetTarget=n1xrpfyevzkdaen1m1meb5z8qwc6.htm&locale=en)
+- [SAS Documentation, "Creating Tables"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=sqlproc&docsetTarget=p1l9ypkml4febvn0zsbkwev7v5x9.htm&locale=en)
+- [SAS Documentation, "DROP="](https://v8doc.sas.com/sashtml/lgref/z0131113.htm)
+- [SAS Documentation, "INFORMAT Statement"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=lestmtsref&docsetTarget=p164164hob450kn1agkpcosya669.htm&locale=en)
+- [SAS Documentation, "The HPDS2 Procedure" (https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=prochp&docsetTarget=prochp_hpds2_syntax05.htm&locale=en)
+- [SAS Documentation, "Using the DROP= and KEEP= Data Set Options for Efficiency"](https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=basess&docsetTarget=p10jjd7e6qn396n1a22uvw3va3ao.htm&locale=en)
+- [SAS Support, "MERGING vs. JOINING: Comparing the DATA Step with SQL"](https://support.sas.com/resources/papers/proceedings/proceedings/sugi30/249-30.pdf)
+- [SAS Support, "Sample 25270: Using PROC SQL to generate the Cartesian Product"](https://support.sas.com/kb/25/270.html)
+- [SASnrd, "SAS Cartesian Product with PROC SQL and the Data Step"](https://sasnrd.com/sas-cartesian-product-proc-sql-data-step/)
+- [UCLA, "Inputing Data into SAS"](https://stats.idre.ucla.edu/sas/modules/inputting-data-into-sas/)
+- [web.mnstate.edu, "The Language of Sets — Cartesian Product"](http://web.mnstate.edu/peil/MDEV102/U1/S7/Cartesian4.htm)
+- [Wikipedia, "Cartesian product"](https://simple.wikipedia.org/wiki/Cartesian_product)
