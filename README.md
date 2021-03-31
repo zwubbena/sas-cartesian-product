@@ -55,7 +55,7 @@ The first step is to use SAS to create a data table of the 2019 DL values. The v
 - ***19DL = {0,1,2,3,4}***
 
 #### 5.1.1. SAS Input
-The SAS input code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2019` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2019` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data a_table;
 	input DL $  DL2019;
@@ -78,7 +78,7 @@ The second step is to use SAS to create a data table of the 2020 DL values. Howe
 - ***20DL = {1,2,3,4}***
 
 #### 5.2.1. SAS Input
-The SAS input code below starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2020` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS code below starts with a `DATA` step and creates a dataset called `b_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2020` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data b_table;
 	input DL $ DL2020;
@@ -100,7 +100,7 @@ Now we have two datasets containing all DL values from 2019 and 2020. We'll use 
 - ***19DL x 20DL = {(0,1),(0,2),(0,3),(0,4),(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)}***
 
 #### 5.3.1. SAS Input
-The SAS input code below starts with a `PROC SQL` step to join the two datasets together from a query. The `CREATE TABLE` statement with the `AS` keyword creates a dataset called `cartesian_dl`. The asterisk `*` in the `SELECT` statement tells SAS to include all columns from both the `a_table` and the `b_table` datasets in the `FROM` clause. The `DROP=` option is associated with the output dataset `cartesian_dl`, which means that SAS will not write the `DL` variable to the output `cartesian_dl` dataset because for our purposes we're only interested in the DL2019 and the DL2020 columns. The `QUIT` statement ends the `PROC SQL` procedure.
+The SAS code below starts with a `PROC SQL` step to join the two datasets together from a query. The `CREATE TABLE` statement with the `AS` keyword creates a dataset called `cartesian_dl`. The asterisk `*` in the `SELECT` statement tells SAS to include all columns from both the `a_table` and the `b_table` datasets in the `FROM` clause. The `DROP=` option is associated with the output dataset `cartesian_dl`, which means that SAS will not write the `DL` variable to the output `cartesian_dl` dataset because for our purposes we're only interested in the DL2019 and the DL2020 columns. The `QUIT` statement ends the `PROC SQL` procedure.
 ```
 proc sql;
 	create table cartesian_dl (drop=DL) as
