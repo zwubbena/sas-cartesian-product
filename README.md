@@ -57,7 +57,7 @@ The first step is to use SAS to create a data table of the 2019 DL values. The v
 - ***19DL = {0,1,2,3,4}***
 
 #### 5.1.1. SAS Input
-The SAS code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` `$` character variable and a `DL2019` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
+The SAS code below starts with a `DATA` step and creates a dataset called `a_table`. The `INPUT`statement tells SAS to create a `DL` variable that's a character data type denoted by `$ ` and a `DL2019` numeric variable. The `DATALINES` statement reads the subsequent lines of data directly into the SAS program (rather than coming from an external data source). Each of the five lines starting with `DL1` `1` contain the data values for the two variables in the `INPUT` statement. The `RUN` statement tells SAS to execute the preceding block of code to generate the new SAS dataset.
 ```
 data a_table;
 	input DL $  DL2019;
