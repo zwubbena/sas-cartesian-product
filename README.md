@@ -1,7 +1,5 @@
 # SAS Cartesian Product
 
-***Have a question or comment, email [zwubbena@gmail.com](zwubbena@gmail.com).***
-
 ## 1. Introduction
 
 If you're like me, you've probably had a hard time imagining a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems while programming in [SAS](https://www.sas.com/en_us/home.html). 
