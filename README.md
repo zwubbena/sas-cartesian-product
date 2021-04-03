@@ -1,21 +1,21 @@
 # SAS Cartesian Product
 
-***Have a comment or question about this article, email [zwubbena@gmail.com](zwubbena@gmail.com).***
+***Have a question or comment, email [zwubbena@gmail.com](zwubbena@gmail.com).***
 
 ## 1. Introduction
 
-If you're like me, you probably had a hard time imagining a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems programming in [SAS](https://www.sas.com/en_us/home.html). 
+If you're like me, you've probably had a hard time imagining a scenario when you’d use the Cartesian product. So, I was surprised when I found it useful for solving a number of analytical problems while programming in [SAS](https://www.sas.com/en_us/home.html). 
 
-Here I discuss programming the Cartesian product in SAS to solve just one of those analytical problems:
+Here I discuss using the Cartesian product in SAS to solve just one of those analytical problems:
 
 -  ***How has a school district's determination level (DL) changed from one year to the next?***
 
-This article is structured into the folllowing six sections: introduction, keywords, Cartesian product, scenario, SAS programming, and determination level change.
+This article is structured into six sections: introduction, keywords, Cartesian product, scenario, SAS programming, and determination level change.
 
 
 ## 2. Keywords
 
-Below is a list of keywords and their definitions that you should be familiar with at the onset:
+Below is a list of keywords and their definitions:
 - **SAS Language** - is a computer programming language used for statistical analysis based on SAS (Statistical Analysis System), a statistical software suite developed by the SAS Institute.
 - **Ordered Pair** - a pair of objects (denoted by: a,b) where one element is designated first and the other element is designated second. 
 - **Cartesian Product** - the Cartesian product of two sets A and B, denoted A × B, is the set of all possible ordered pairs where the elements of A are first and the elements of B are second. 
