@@ -32,7 +32,7 @@ The Cartesian product allows us to find all combinations of the elements in both
 
 - ***A x B = {(a,d),(a,e),(a,f),(b,d),(b,e),(b,f),(c,d),(c,e),(c,f)}***
 
-So, from set A and set B we've created the Cartesian product A x B with nine ordered pairs. Those ordered pairs give all the possible combinations of elements from both set A and set B. 
+So, from set A and set B we've created the Cartesian product A x B with nine ordered pairs. Those ordered pairs give all of the possible combinations of elements from both set A and set B. 
 
 Now let's look at a scenario of when we would use the Cartesian product.
 
