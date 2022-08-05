@@ -4,7 +4,7 @@
 
 Sometimes it's hard time imagining a scenario when you’d use the Cartesian product in [Education Data Scieince (EDS)](https://journals.sagepub.com/doi/full/10.1177/23328584211052055). However, it's useful for solving a number of analytical problems when programming in [SAS](https://www.sas.com/en_us/home.html). 
 
-Here I discuss using the Cartesian product to solve just one of those analytical problems:
+Here I discuss using the Cartesian product to solve just one of those problems:
 
 -  ***How has a school district's determination level (DL) changed from one year to the next?***
 
