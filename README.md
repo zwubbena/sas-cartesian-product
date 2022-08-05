@@ -43,7 +43,9 @@ Each K-12 U.S. school district that has a special education program is assigned 
 - **Needs Intervention (DL 3)**
 - **Needs Substantial Intervention (DL 4)**
 
-Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). For example, in Texas each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here but you can read more about the [RDA system](https://tea.texas.gov/academics/special-student-populations/review-and-support/results-driven-accountability-rda). ***This scenario is about how a school district's DL has changed from one year to the next.*** 
+Such DL assignment denotes the degree to which a school district has implemented the federal Individuals with Disabilities Education Act (IDEA). For example, in Texas each DL is based on an equation that combines different indicators like graduation, dropout, etc. However, that's not relevant here but you can read more about the [RDA system](https://tea.texas.gov/academics/special-student-populations/review-and-support/results-driven-accountability-rda). 
+
+***This scenario is about how a school district's DL has changed from one year to the next.*** 
 
 Of course, if we're interested in one school district, we could look at their 2019 DL and their 2020 DL to know how their DL changed. But, when dealing with over a thousand districts, this becomes a task better suited for SAS programming, the Cartesian product, and conditional processing.
 
