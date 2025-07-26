@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Would you ever encounter a scenario when you’d use the Cartesian product in [Education Data Scieince (EDS)](https://journals.sagepub.com/doi/full/10.1177/23328584211052055)? YEs! You can use the Cartesian product for solving a number of analytical problems. Let's take a look at one problem.
+Would you ever encounter a scenario when you’d use the Cartesian product in [Education Data Scieince (EDS)](https://journals.sagepub.com/doi/full/10.1177/23328584211052055)? Yes! You can use the Cartesian product for solving a number of analytical problems. Let's take a look at one problem.
 
 -  ***How has a school district's determination level (DL) changed from one year to the next?***
 
