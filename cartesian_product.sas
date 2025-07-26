@@ -1,6 +1,6 @@
 /**************************************************************************/
 /* Program:    create_cartesian.sas 	     				  */																    */
-/* Purpose:    Create all combinations of determination level values      */
+/* Purpose:    Create all combinations of determination level      	  */
 /*             from one year to the next year using a Cartesian product.  */
 /**************************************************************************/
 
